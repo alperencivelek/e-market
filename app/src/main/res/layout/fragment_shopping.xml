@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/breadImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bread" />
+
+                <TextView
+                    android:id="@+id/breadTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bread 2.5₺" />
+
+                <Button
+                    android:id="@+id/breadBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/milkImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/milk" />
+
+                <TextView
+                    android:id="@+id/milkTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Milk 10₺" />
+
+                <Button
+                    android:id="@+id/milkBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/tomatoImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tomato"/>
+
+                <TextView
+                    android:id="@+id/tomatoTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Tomato 9.5₺" />
+
+                <Button
+                    android:id="@+id/tomatoBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/cucumberImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cucumber"/>
+
+                <TextView
+                    android:id="@+id/cucumberTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Cucumber 7.5₺" />
+
+                <Button
+                    android:id="@+id/cucumberBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/onionImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/onion" />
+
+                <TextView
+                    android:id="@+id/onionTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Onion 5₺" />
+
+                <Button
+                    android:id="@+id/onionBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/oliveImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/olive" />
+
+                <TextView
+                    android:id="@+id/oliveTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Olive 25₺" />
+
+                <Button
+                    android:id="@+id/oliveBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/cheeseImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cheese" />
+
+                <TextView
+                    android:id="@+id/cheeseTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Cheese 40₺" />
+
+                <Button
+                    android:id="@+id/chesseBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/carrotImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/carrot" />
+
+                <TextView
+                    android:id="@+id/carrotTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Carrot 6.5₺" />
+
+                <Button
+                    android:id="@+id/carrotBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/waterImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/water" />
+
+                <TextView
+                    android:id="@+id/waterTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Water 1.5₺" />
+
+                <Button
+                    android:id="@+id/waterBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/chocolatteImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/chocolatte" />
+
+                <TextView
+                    android:id="@+id/chocolatteTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chocolate 4₺" />
+
+                <Button
+                    android:id="@+id/chocolatteBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/chipsImg"
+                    android:layout_width="40dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/chips" />
+
+                <TextView
+                    android:id="@+id/chipsTxt"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignBottom="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_toStartOf="@+id/button2"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Chips 7₺" />
+
+                <Button
+                    android:id="@+id/chipsBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="90dp"
+                    android:textSize="30dp"
+                    android:text="+" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
